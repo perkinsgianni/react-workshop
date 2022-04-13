@@ -96,7 +96,7 @@ class Game extends React.Component {
     });
   }
 
-  // use the most recent history entry to determine and display game’s status
+  // use most recent history entry to determine and display game’s status
   render() {
     const history = this.state.history;
     const current = history[this.state.stepNumber];
